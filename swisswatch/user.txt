@@ -1,0 +1,333 @@
+WARNING: Using a password on the command line interface can be insecure.
+# WARNING The --port option is not used in the --diagnostic mode.
+# WARNING: The --user option is only used for the default mode.
+# Source on localhost: ... connected.
+# CAUTION: The diagnostic mode is a best-effort parse of the .frm file. As such, it may not identify all of the components of the table correctly. This is especially true for damaged files. It will also not read the default values for the columns and the resulting statement may not be syntactically correct.
+# Reading .frm file for G:/swisswatch/user.frm:
+# The .frm file is a TABLE.
+# Skipping to header at : 2
+# General Data from .frm file:
+{'IO_SIZE': 86,
+ 'MYSQL_VERSION_ID': 100411,
+ 'avg_row_length': 0,
+ 'charset_low': 0,
+ 'create_options': 9,
+ 'db_create_pack': 2,
+ 'default_charset': 49,
+ 'default_part_eng': 0,
+ 'extra_size': 16,
+ 'frm_file_ver': 5,
+ 'frm_version': 10,
+ 'key_block_size': 0,
+ 'key_info_length': 80,
+ 'key_length': 1483,
+ 'legacy_db_type': 'INNODB',
+ 'length': 2565,
+ 'max_rows': 0,
+ 'min_rows': 0,
+ 'rec_length': 547,
+ 'row_type': 0,
+ 'table_charset': 49,
+ 'tmp_key_length': 1483}
+# Skipping to key data at : 56
+# Reading key part 0.
+# Reading key part 0.
+# Reading key part 0.
+# Index (key) Data from .frm file:
+{'key_names': ['PRIMARY', 'email', 'mobile'],
+ 'keys': [{'algorithm': 0,
+           'block_size': 0,
+           'comment': '',
+           'flags': 0,
+           'key_length': 4,
+           'key_parts': [{'field_num': 1,
+                          'key_part_flag': 0,
+                          'key_type': 6912,
+                          'length': 4,
+                          'offset': 0}],
+           'num_parts': 1},
+          {'algorithm': 0,
+           'block_size': 0,
+           'comment': '',
+           'flags': 40,
+           'key_length': 500,
+           'key_parts': [{'field_num': 5,
+                          'key_part_flag': 64,
+                          'key_type': 0,
+                          'length': 500,
+                          'offset': 35}],
+           'num_parts': 1},
+          {'algorithm': 0,
+           'block_size': 0,
+           'comment': '',
+           'flags': 40,
+           'key_length': 10,
+           'key_parts': [{'field_num': 3,
+                          'key_part_flag': 64,
+                          'key_type': 0,
+                          'length': 10,
+                          'offset': 14}],
+           'num_parts': 1}],
+ 'num_key_parts': (3,),
+ 'num_keys': 3}
+# Skipping to default data at : 622
+# Skipping to keys at : 846
+# Engine string: InnoDB
+# Partition string: 
+# Skipping to column data at : 9be
+{'com_length': 538,
+ 'int_length': 0,
+ 'interval_count': 49,
+ 'interval_parts': 0,
+ 'n_length': 3840,
+ 'null_fields': 12796,
+ 'num_cols': 0,
+ 'pos': 16384,
+ 'unknown': 0}
+# Fields per screen = 111
+# Column Data from .frm file:
+[]
+# Number of columns: 0
+[]
+# Skipping to table comments at : 894
+# Comment: 
+# Character sets read from server:
++------+---------------------+-------------------------------+---------+-------------+
+| id   | character_set_name  | collation_name                | maxlen  | is_default  |
++------+---------------------+-------------------------------+---------+-------------+
+| 64   | armscii8            | armscii8_bin                  | 1       |             |
+| 32   | armscii8            | armscii8_general_ci           | 1       | Yes         |
+| 65   | ascii               | ascii_bin                     | 1       |             |
+| 11   | ascii               | ascii_general_ci              | 1       | Yes         |
+| 84   | big5                | big5_bin                      | 2       |             |
+| 1    | big5                | big5_chinese_ci               | 2       | Yes         |
+| 63   | binary              | binary                        | 1       | Yes         |
+| 99   | cp1250              | cp1250_polish_ci              | 1       |             |
+| 66   | cp1250              | cp1250_bin                    | 1       |             |
+| 44   | cp1250              | cp1250_croatian_ci            | 1       |             |
+| 34   | cp1250              | cp1250_czech_cs               | 1       |             |
+| 26   | cp1250              | cp1250_general_ci             | 1       | Yes         |
+| 52   | cp1251              | cp1251_general_cs             | 1       |             |
+| 51   | cp1251              | cp1251_general_ci             | 1       | Yes         |
+| 50   | cp1251              | cp1251_bin                    | 1       |             |
+| 23   | cp1251              | cp1251_ukrainian_ci           | 1       |             |
+| 14   | cp1251              | cp1251_bulgarian_ci           | 1       |             |
+| 67   | cp1256              | cp1256_bin                    | 1       |             |
+| 57   | cp1256              | cp1256_general_ci             | 1       | Yes         |
+| 59   | cp1257              | cp1257_general_ci             | 1       | Yes         |
+| 58   | cp1257              | cp1257_bin                    | 1       |             |
+| 29   | cp1257              | cp1257_lithuanian_ci          | 1       |             |
+| 80   | cp850               | cp850_bin                     | 1       |             |
+| 4    | cp850               | cp850_general_ci              | 1       | Yes         |
+| 40   | cp852               | cp852_general_ci              | 1       | Yes         |
+| 81   | cp852               | cp852_bin                     | 1       |             |
+| 36   | cp866               | cp866_general_ci              | 1       | Yes         |
+| 68   | cp866               | cp866_bin                     | 1       |             |
+| 96   | cp932               | cp932_bin                     | 2       |             |
+| 95   | cp932               | cp932_japanese_ci             | 2       | Yes         |
+| 3    | dec8                | dec8_swedish_ci               | 1       | Yes         |
+| 69   | dec8                | dec8_bin                      | 1       |             |
+| 98   | eucjpms             | eucjpms_bin                   | 3       |             |
+| 97   | eucjpms             | eucjpms_japanese_ci           | 3       | Yes         |
+| 85   | euckr               | euckr_bin                     | 2       |             |
+| 19   | euckr               | euckr_korean_ci               | 2       | Yes         |
+| 86   | gb2312              | gb2312_bin                    | 2       |             |
+| 24   | gb2312              | gb2312_chinese_ci             | 2       | Yes         |
+| 87   | gbk                 | gbk_bin                       | 2       |             |
+| 28   | gbk                 | gbk_chinese_ci                | 2       | Yes         |
+| 93   | geostd8             | geostd8_bin                   | 1       |             |
+| 92   | geostd8             | geostd8_general_ci            | 1       | Yes         |
+| 70   | greek               | greek_bin                     | 1       |             |
+| 25   | greek               | greek_general_ci              | 1       | Yes         |
+| 71   | hebrew              | hebrew_bin                    | 1       |             |
+| 16   | hebrew              | hebrew_general_ci             | 1       | Yes         |
+| 72   | hp8                 | hp8_bin                       | 1       |             |
+| 6    | hp8                 | hp8_english_ci                | 1       | Yes         |
+| 73   | keybcs2             | keybcs2_bin                   | 1       |             |
+| 37   | keybcs2             | keybcs2_general_ci            | 1       | Yes         |
+| 74   | koi8r               | koi8r_bin                     | 1       |             |
+| 7    | koi8r               | koi8r_general_ci              | 1       | Yes         |
+| 75   | koi8u               | koi8u_bin                     | 1       |             |
+| 22   | koi8u               | koi8u_general_ci              | 1       | Yes         |
+| 5    | latin1              | latin1_german1_ci             | 1       |             |
+| 94   | latin1              | latin1_spanish_ci             | 1       |             |
+| 49   | latin1              | latin1_general_cs             | 1       |             |
+| 48   | latin1              | latin1_general_ci             | 1       |             |
+| 47   | latin1              | latin1_bin                    | 1       |             |
+| 31   | latin1              | latin1_german2_ci             | 1       |             |
+| 15   | latin1              | latin1_danish_ci              | 1       |             |
+| 8    | latin1              | latin1_swedish_ci             | 1       | Yes         |
+| 2    | latin2              | latin2_czech_cs               | 1       |             |
+| 77   | latin2              | latin2_bin                    | 1       |             |
+| 27   | latin2              | latin2_croatian_ci            | 1       |             |
+| 21   | latin2              | latin2_hungarian_ci           | 1       |             |
+| 9    | latin2              | latin2_general_ci             | 1       | Yes         |
+| 30   | latin5              | latin5_turkish_ci             | 1       | Yes         |
+| 78   | latin5              | latin5_bin                    | 1       |             |
+| 79   | latin7              | latin7_bin                    | 1       |             |
+| 42   | latin7              | latin7_general_cs             | 1       |             |
+| 41   | latin7              | latin7_general_ci             | 1       | Yes         |
+| 20   | latin7              | latin7_estonian_cs            | 1       |             |
+| 43   | macce               | macce_bin                     | 1       |             |
+| 38   | macce               | macce_general_ci              | 1       | Yes         |
+| 53   | macroman            | macroman_bin                  | 1       |             |
+| 39   | macroman            | macroman_general_ci           | 1       | Yes         |
+| 88   | sjis                | sjis_bin                      | 2       |             |
+| 13   | sjis                | sjis_japanese_ci              | 2       | Yes         |
+| 82   | swe7                | swe7_bin                      | 1       |             |
+| 10   | swe7                | swe7_swedish_ci               | 1       | Yes         |
+| 89   | tis620              | tis620_bin                    | 1       |             |
+| 18   | tis620              | tis620_thai_ci                | 1       | Yes         |
+| 132  | ucs2                | ucs2_slovenian_ci             | 2       |             |
+| 140  | ucs2                | ucs2_lithuanian_ci            | 2       |             |
+| 148  | ucs2                | ucs2_german2_ci               | 2       |             |
+| 131  | ucs2                | ucs2_romanian_ci              | 2       |             |
+| 139  | ucs2                | ucs2_danish_ci                | 2       |             |
+| 147  | ucs2                | ucs2_sinhala_ci               | 2       |             |
+| 642  | ucs2                | ucs2_thai_520_w2              | 2       |             |
+| 130  | ucs2                | ucs2_latvian_ci               | 2       |             |
+| 138  | ucs2                | ucs2_czech_ci                 | 2       |             |
+| 146  | ucs2                | ucs2_hungarian_ci             | 2       |             |
+| 641  | ucs2                | ucs2_myanmar_ci               | 2       |             |
+| 129  | ucs2                | ucs2_icelandic_ci             | 2       |             |
+| 137  | ucs2                | ucs2_turkish_ci               | 2       |             |
+| 145  | ucs2                | ucs2_esperanto_ci             | 2       |             |
+| 640  | ucs2                | ucs2_croatian_ci              | 2       |             |
+| 128  | ucs2                | ucs2_unicode_ci               | 2       |             |
+| 136  | ucs2                | ucs2_swedish_ci               | 2       |             |
+| 144  | ucs2                | ucs2_persian_ci               | 2       |             |
+| 159  | ucs2                | ucs2_general_mysql500_ci      | 2       |             |
+| 90   | ucs2                | ucs2_bin                      | 2       |             |
+| 135  | ucs2                | ucs2_spanish_ci               | 2       |             |
+| 143  | ucs2                | ucs2_roman_ci                 | 2       |             |
+| 151  | ucs2                | ucs2_vietnamese_ci            | 2       |             |
+| 35   | ucs2                | ucs2_general_ci               | 2       | Yes         |
+| 134  | ucs2                | ucs2_estonian_ci              | 2       |             |
+| 142  | ucs2                | ucs2_spanish2_ci              | 2       |             |
+| 150  | ucs2                | ucs2_unicode_520_ci           | 2       |             |
+| 133  | ucs2                | ucs2_polish_ci                | 2       |             |
+| 141  | ucs2                | ucs2_slovak_ci                | 2       |             |
+| 149  | ucs2                | ucs2_croatian_mysql561_ci     | 2       |             |
+| 91   | ujis                | ujis_bin                      | 3       |             |
+| 12   | ujis                | ujis_japanese_ci              | 3       | Yes         |
+| 54   | utf16               | utf16_general_ci              | 4       | Yes         |
+| 107  | utf16               | utf16_estonian_ci             | 4       |             |
+| 115  | utf16               | utf16_spanish2_ci             | 4       |             |
+| 123  | utf16               | utf16_unicode_520_ci          | 4       |             |
+| 106  | utf16               | utf16_polish_ci               | 4       |             |
+| 114  | utf16               | utf16_slovak_ci               | 4       |             |
+| 122  | utf16               | utf16_croatian_mysql561_ci    | 4       |             |
+| 105  | utf16               | utf16_slovenian_ci            | 4       |             |
+| 113  | utf16               | utf16_lithuanian_ci           | 4       |             |
+| 121  | utf16               | utf16_german2_ci              | 4       |             |
+| 104  | utf16               | utf16_romanian_ci             | 4       |             |
+| 112  | utf16               | utf16_danish_ci               | 4       |             |
+| 120  | utf16               | utf16_sinhala_ci              | 4       |             |
+| 103  | utf16               | utf16_latvian_ci              | 4       |             |
+| 111  | utf16               | utf16_czech_ci                | 4       |             |
+| 119  | utf16               | utf16_hungarian_ci            | 4       |             |
+| 674  | utf16               | utf16_thai_520_w2             | 4       |             |
+| 102  | utf16               | utf16_icelandic_ci            | 4       |             |
+| 110  | utf16               | utf16_turkish_ci              | 4       |             |
+| 118  | utf16               | utf16_esperanto_ci            | 4       |             |
+| 673  | utf16               | utf16_myanmar_ci              | 4       |             |
+| 101  | utf16               | utf16_unicode_ci              | 4       |             |
+| 109  | utf16               | utf16_swedish_ci              | 4       |             |
+| 117  | utf16               | utf16_persian_ci              | 4       |             |
+| 672  | utf16               | utf16_croatian_ci             | 4       |             |
+| 55   | utf16               | utf16_bin                     | 4       |             |
+| 108  | utf16               | utf16_spanish_ci              | 4       |             |
+| 116  | utf16               | utf16_roman_ci                | 4       |             |
+| 124  | utf16               | utf16_vietnamese_ci           | 4       |             |
+| 62   | utf16le             | utf16le_bin                   | 4       |             |
+| 56   | utf16le             | utf16le_general_ci            | 4       | Yes         |
+| 162  | utf32               | utf32_latvian_ci              | 4       |             |
+| 170  | utf32               | utf32_czech_ci                | 4       |             |
+| 178  | utf32               | utf32_hungarian_ci            | 4       |             |
+| 738  | utf32               | utf32_thai_520_w2             | 4       |             |
+| 161  | utf32               | utf32_icelandic_ci            | 4       |             |
+| 169  | utf32               | utf32_turkish_ci              | 4       |             |
+| 177  | utf32               | utf32_esperanto_ci            | 4       |             |
+| 737  | utf32               | utf32_myanmar_ci              | 4       |             |
+| 160  | utf32               | utf32_unicode_ci              | 4       |             |
+| 168  | utf32               | utf32_swedish_ci              | 4       |             |
+| 176  | utf32               | utf32_persian_ci              | 4       |             |
+| 736  | utf32               | utf32_croatian_ci             | 4       |             |
+| 61   | utf32               | utf32_bin                     | 4       |             |
+| 167  | utf32               | utf32_spanish_ci              | 4       |             |
+| 175  | utf32               | utf32_roman_ci                | 4       |             |
+| 183  | utf32               | utf32_vietnamese_ci           | 4       |             |
+| 60   | utf32               | utf32_general_ci              | 4       | Yes         |
+| 166  | utf32               | utf32_estonian_ci             | 4       |             |
+| 174  | utf32               | utf32_spanish2_ci             | 4       |             |
+| 182  | utf32               | utf32_unicode_520_ci          | 4       |             |
+| 165  | utf32               | utf32_polish_ci               | 4       |             |
+| 173  | utf32               | utf32_slovak_ci               | 4       |             |
+| 181  | utf32               | utf32_croatian_mysql561_ci    | 4       |             |
+| 164  | utf32               | utf32_slovenian_ci            | 4       |             |
+| 172  | utf32               | utf32_lithuanian_ci           | 4       |             |
+| 180  | utf32               | utf32_german2_ci              | 4       |             |
+| 163  | utf32               | utf32_romanian_ci             | 4       |             |
+| 171  | utf32               | utf32_danish_ci               | 4       |             |
+| 179  | utf32               | utf32_sinhala_ci              | 4       |             |
+| 194  | utf8                | utf8_latvian_ci               | 3       |             |
+| 202  | utf8                | utf8_czech_ci                 | 3       |             |
+| 210  | utf8                | utf8_hungarian_ci             | 3       |             |
+| 577  | utf8                | utf8_myanmar_ci               | 3       |             |
+| 193  | utf8                | utf8_icelandic_ci             | 3       |             |
+| 201  | utf8                | utf8_turkish_ci               | 3       |             |
+| 209  | utf8                | utf8_esperanto_ci             | 3       |             |
+| 576  | utf8                | utf8_croatian_ci              | 3       |             |
+| 192  | utf8                | utf8_unicode_ci               | 3       |             |
+| 200  | utf8                | utf8_swedish_ci               | 3       |             |
+| 208  | utf8                | utf8_persian_ci               | 3       |             |
+| 223  | utf8                | utf8_general_mysql500_ci      | 3       |             |
+| 83   | utf8                | utf8_bin                      | 3       |             |
+| 199  | utf8                | utf8_spanish_ci               | 3       |             |
+| 207  | utf8                | utf8_roman_ci                 | 3       |             |
+| 215  | utf8                | utf8_vietnamese_ci            | 3       |             |
+| 33   | utf8                | utf8_general_ci               | 3       | Yes         |
+| 198  | utf8                | utf8_estonian_ci              | 3       |             |
+| 206  | utf8                | utf8_spanish2_ci              | 3       |             |
+| 214  | utf8                | utf8_unicode_520_ci           | 3       |             |
+| 197  | utf8                | utf8_polish_ci                | 3       |             |
+| 205  | utf8                | utf8_slovak_ci                | 3       |             |
+| 213  | utf8                | utf8_croatian_mysql561_ci     | 3       |             |
+| 196  | utf8                | utf8_slovenian_ci             | 3       |             |
+| 204  | utf8                | utf8_lithuanian_ci            | 3       |             |
+| 212  | utf8                | utf8_german2_ci               | 3       |             |
+| 195  | utf8                | utf8_romanian_ci              | 3       |             |
+| 203  | utf8                | utf8_danish_ci                | 3       |             |
+| 211  | utf8                | utf8_sinhala_ci               | 3       |             |
+| 578  | utf8                | utf8_thai_520_w2              | 3       |             |
+| 224  | utf8mb4             | utf8mb4_unicode_ci            | 4       |             |
+| 232  | utf8mb4             | utf8mb4_swedish_ci            | 4       |             |
+| 240  | utf8mb4             | utf8mb4_persian_ci            | 4       |             |
+| 608  | utf8mb4             | utf8mb4_croatian_ci           | 4       |             |
+| 46   | utf8mb4             | utf8mb4_bin                   | 4       |             |
+| 231  | utf8mb4             | utf8mb4_spanish_ci            | 4       |             |
+| 239  | utf8mb4             | utf8mb4_roman_ci              | 4       |             |
+| 247  | utf8mb4             | utf8mb4_vietnamese_ci         | 4       |             |
+| 45   | utf8mb4             | utf8mb4_general_ci            | 4       | Yes         |
+| 230  | utf8mb4             | utf8mb4_estonian_ci           | 4       |             |
+| 238  | utf8mb4             | utf8mb4_spanish2_ci           | 4       |             |
+| 246  | utf8mb4             | utf8mb4_unicode_520_ci        | 4       |             |
+| 229  | utf8mb4             | utf8mb4_polish_ci             | 4       |             |
+| 237  | utf8mb4             | utf8mb4_slovak_ci             | 4       |             |
+| 245  | utf8mb4             | utf8mb4_croatian_mysql561_ci  | 4       |             |
+| 228  | utf8mb4             | utf8mb4_slovenian_ci          | 4       |             |
+| 236  | utf8mb4             | utf8mb4_lithuanian_ci         | 4       |             |
+| 244  | utf8mb4             | utf8mb4_german2_ci            | 4       |             |
+| 227  | utf8mb4             | utf8mb4_romanian_ci           | 4       |             |
+| 235  | utf8mb4             | utf8mb4_danish_ci             | 4       |             |
+| 243  | utf8mb4             | utf8mb4_sinhala_ci            | 4       |             |
+| 226  | utf8mb4             | utf8mb4_latvian_ci            | 4       |             |
+| 234  | utf8mb4             | utf8mb4_czech_ci              | 4       |             |
+| 242  | utf8mb4             | utf8mb4_hungarian_ci          | 4       |             |
+| 610  | utf8mb4             | utf8mb4_thai_520_w2           | 4       |             |
+| 225  | utf8mb4             | utf8mb4_icelandic_ci          | 4       |             |
+| 233  | utf8mb4             | utf8mb4_turkish_ci            | 4       |             |
+| 241  | utf8mb4             | utf8mb4_esperanto_ci          | 4       |             |
+| 609  | utf8mb4             | utf8mb4_myanmar_ci            | 4       |             |
++------+---------------------+-------------------------------+---------+-------------+
+234 rows in set.

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+.account_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.account_details h2{
+    font-family: 'Titillium Web', sans-serif;
+}
+.account_details label{
+     float: left;
+}
